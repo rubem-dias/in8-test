@@ -1,0 +1,52 @@
+table, th, td {
+    border: 1px solid #29abe2;
+    border-collapse:collapse;
+    padding: 20px;
+    width: 60vw;
+    right: 50;
+    font-size: 1.1em;
+    font-weight: 200px;
+}
+
+.table-title {
+    margin-bottom: 60px;
+    margin-top: 40px;
+    color:  #29abe2;
+    font-weight: 100;
+}
+
+.tables {
+    display: block;
+    margin-left: 20%;
+    margin-bottom: 110px;
+}
+
+tr:nth-child(1) {
+    border-left: hidden;
+    border-top: hidden;
+}
+
+td:nth-child(1) {
+    border-left: hidden;
+}
+
+tr:last-child {
+    border-bottom: hidden;
+    border-right: hidden;
+}
+
+td:last-child {
+    border-right: hidden;
+}
+
+th:last-child {
+    border-right: hidden;
+}
+
+.top-pag {
+    width: 50px;
+    position: relative;
+    float: right;
+    right: 10%;
+    bottom: 60px; 
+}
