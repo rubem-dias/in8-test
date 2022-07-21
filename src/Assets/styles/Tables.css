@@ -6,6 +6,7 @@ table, th, td {
     right: 50;
     font-size: 1.1em;
     font-weight: 200px;
+    color: #808080;
 }
 
 .table-title {
@@ -49,4 +50,73 @@ th:last-child {
     float: right;
     right: 10%;
     bottom: 60px; 
+}
+
+@media only screen and (max-width: 500px) and (min-width: 200px)  {
+    .tables {
+        display: block;
+        margin-left: 5%;
+        margin-bottom: 110px;
+    }
+
+    th, td {
+        border: 1px solid #29abe2;
+        border-collapse:collapse;
+        padding: 5px;
+        width: 60vw;
+        right: 50;
+        font-size: 0.7em;
+        font-weight: 200px;
+    }
+
+    .table-title {
+        margin-bottom: 60px;
+        margin-top: 40px;
+        color:  #29abe2;
+        font-weight: 100;
+        font-size: 0.9em;
+    }
+
+    .top-pag {
+        width: 30px;
+        position: relative;
+        right: 50%;
+        bottom: -60px;
+        
+    }
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 501px)  {
+    .tables {
+        display: block;
+        margin-left: 5%;
+        margin-bottom: 110px;
+    }
+
+    th, td {
+        border: 1px solid #29abe2;
+        border-collapse: collapse;
+        padding: 10px;
+        width: 60vw;
+        right: 40;
+        font-size: 1em;
+        font-weight: 200px;
+    }
+
+    .table-title {
+        margin-bottom: 60px;
+        margin-top: 40px;
+        color:  #29abe2;
+        font-weight: 100;
+        font-size: 0.9em;
+    }
+
+    .top-pag {
+        width: 30px;
+        position: relative;
+        right: 50%;
+        bottom: -60px;
+        
+    }
 }
