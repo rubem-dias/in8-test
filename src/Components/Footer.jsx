@@ -22,7 +22,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="footer" style={{ backgroundImage: `url(${imageUrl})` }}>
+    <div className="footer" style={{ backgroundImage: `url(${imageUrl})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
         <h1 className="footer-h1"> Rubem Dias da Silva </h1>
         <br></br>
         <h1 className="footer-h1"> rubemdias65@gmail.com </h1>

@@ -25,7 +25,7 @@ export default function Main() {
 
   return (
     <>
-        <div className="container" style={{ backgroundImage: `url(${imageUrl})` }}>
+        <div className="container" style={{ backgroundImage: `url(${imageUrl})`, backgroundPosition: 'cover'}}>
             <div className="nav-bar">
                 <img src={logo} alt="logo" className="logo"/>
                 <ul className="nav-list">
