@@ -81,7 +81,7 @@
 }
 /* end content desktop */
 
-@media only screen and (max-width: 860px) and (min-width: 240px)  {
+@media only screen and (max-width: 860px) and (min-width: 340px)  {
     a {
         color: #fff;
         text-decoration: none;
@@ -213,6 +213,142 @@
     
 }
 
+
+
+@media only screen and (max-width: 339px) and (min-width: 100px)  {
+    a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .p-menu1{
+         height: 100%;
+      }
+      
+    .menu-sec {
+        visibility: visible;
+    }
+    
+    .nav-list {
+        visibility: hidden;
+    }
+    
+    /* hamburger */
+    .hamburger1 {
+    height: 45px;
+    margin: 10px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    z-index: -1;
+    }
+    
+    .hamburger1 div {
+    background-color: rgb(40, 152, 243);
+    position: relative;
+    width: 30px;
+    height: 2px;
+    margin-left: 60%;
+    margin-top: -70px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    #toggle1 {
+    display: none;
+    }
+    
+    #toggle1:checked + .hamburger1 .top {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            margin-top: -50px;
+    }
+    
+    #toggle1:checked + .hamburger1 .meat {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+         margin-top: -65px;
+    }
+    
+    #toggle1:checked + .hamburger1 .bottom {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    }
+    
+    #toggle1:checked ~ .menu1 {
+        height: 250px;
+
+    }
+    
+    
+    /* Menu */
+    .menu1 {
+    width: 100%;
+    background-color: rgb(40, 152, 243);
+    margin: 0;
+    display: -ms-grid;
+    display: grid;
+    grid-row-gap: 25px;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+    transition: height .4s ease;
+    z-index: 100;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: -50px;
+    position: absolute;
+    }
+    
+    .menu1 a:first-child {
+    margin-top: 40px;
+    }
+    
+    .menu1 a:last-child {
+    margin-bottom: 40px;
+    }
+    
+    .link1 {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    font: 700 20px 'Oswald', sans-serif;
+    }
+    
+    .link1:hover {
+    background-color: #fff;
+    color: rgb(61, 61, 61);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    }
+
+    .title {
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 2.9em;
+        position: relative;
+        margin-top: 160px;
+        margin-left: 50px
+    }
+
+    .subtitle {
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 1.3em;
+        position: relative;
+        margin-top: -10px;
+        margin-left: 50px
+    }
+
+    .logo {
+        width: 150px;
+    }
+    
+}
 
 
 /* menu hamburguer */
