@@ -115,7 +115,7 @@
     position: relative;
     width: 50px;
     height: 5px;
-    margin-left: 60%;
+    margin-left: -70%;
     margin-top: -70px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -210,6 +210,9 @@
         margin-left: 170px
     }
 
+    .logo {
+        margin-left: 250px
+    }
     
 }
 
@@ -249,7 +252,7 @@
     position: relative;
     width: 30px;
     height: 2px;
-    margin-left: 60%;
+    margin-left: -80%;
     margin-top: -70px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -346,6 +349,7 @@
 
     .logo {
         width: 150px;
+        margin-left: 180px;
     }
     
 }
